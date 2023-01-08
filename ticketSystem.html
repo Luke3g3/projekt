@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TicketSytem-style.css">
+    <title>Ticket System</title>
+</head>
+<body>
+    
+   <div class="menu">
+        <input type="button" class="home" onclick="window.location = 'dashboard-menne.html'">
+
+        <input type="button" class="logout" onclick="window.location = 'index.html'">
+    </div>
+      
+    <details> <summary ></summary>
+        <br>
+     <li><input type="button" class="add" onclick="addNew()">
+        <select id="ticketName" class="dropDown">
+        <option class="optionDown">--Ticket auswählen--</option>
+    </select>
+    </li>
+       <br>
+        <div id="add_new">
+
+    </div>
+    <script src="ticketSystem.js"></script>
+    
+</details>
+
+
+   
+
+</body>
+</html>

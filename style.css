@@ -1,0 +1,136 @@
+body{
+    background-image: url(main.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    font-family: system-ui;
+    cursor: default;
+}
+
+   
+        
+        .btn:hover{
+            background-color: black;
+            color: whitesmoke;
+            border-color: whitesmoke;
+            cursor: pointer;
+        }
+        
+        .textfield{
+            background-color: whitesmoke;
+            font-size: 20%;
+            height:30px; 
+            width:100px;
+            padding-left: 0.9%;
+            padding-right: 0.9%;
+            border-radius: 20px;
+            border-color: black;
+        }
+        
+        .textfield:hover{
+            background-color: whitesmoke;
+            border-color: rgba(255, 255, 255, 0.733);
+        }
+
+
+
+
+
+
+.titel {
+    
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    top: 0%; 
+}
+
+.titelBorder{
+    background-color: whitesmoke;
+    max-width: 400px;
+    height: 30px;
+    margin-left: 33%;
+    margin-top: 3%;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  
+   
+}
+
+.login{
+    color: black;
+    display: grid;
+    place-items: center;
+    font-size: 23px;
+    
+
+}
+
+.border{
+    background-color: whitesmoke;
+    max-width: 350px;
+    height: 320px;
+    margin-left: 35%;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 7%;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  
+   
+}
+    
+.feld{
+    padding-top: 4%;
+
+}
+
+.center{
+    display: grid;
+    place-items: center;
+}
+
+.btn{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 30px;
+    padding-top: 0.3%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+    padding-bottom: 0.3%;
+}
+
+.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    cursor: pointer;
+}
+
+.textfield{
+    background-color: whitesmoke;
+    font-size: 20px;
+    height:30px; 
+    width:200px;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.textfield:hover{
+    background-color: whitesmoke;
+    border-color: rgba(255, 255, 255, 0.733);
+}
+
+
+
+
+
+
+  

@@ -1,0 +1,245 @@
+body{
+    background-image: url(main.jpg);
+    background-size: cover;
+    color: black;
+    font-family: system-ui;
+    cursor: default;
+   }
+
+   .btn{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 20px;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    display: flex;
+    justify-content: right;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+
+details {
+    border:  solid whitesmoke;
+    background-color: whitesmoke;
+    color: transparent;
+    width: 600px;
+    height: 5px;
+   padding-bottom: 5%;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+
+
+summary {
+    font-weight: bold;
+    width: 30px;
+    height: 35px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: transparent ;
+    cursor: pointer;
+    list-style-image: url(arrow.png);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 4%;
+    
+}
+
+
+
+
+
+details summary > * {
+    display: inline;
+  }
+
+  details[open] {
+    color: black;
+    width: 600px;
+    height: 500px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    cursor: auto ;
+    margin-left: 30%;
+}
+  
+details[open] summary {
+    cursor: auto;
+    list-style-image: url(more.png);
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.add {
+    background-image: url(add.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+    border-color: transparent;
+    margin-left: 5%;
+}
+
+.center{
+    display: grid;
+    justify-items: center;
+}
+
+
+
+
+.inputFeld{
+    background-color: whitesmoke;
+    color: black;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+    width: 600px;
+    height: 60px;
+    margin-left: 30%;   
+    margin-top: 10%;    
+}
+
+.logout{
+    background-image: url(logout.png);
+    background-color: whitesmoke;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border-color: transparent;
+    margin-top: 2%;
+    margin-left: 40%;
+    
+}
+
+.home{
+    background-image: url(home.png);
+    background-size: cover;
+    background-color: whitesmoke;
+    width: 45px;
+    height: 45px;
+    border-color: transparent;
+    margin-left: 5%;
+}
+
+.home:hover{
+   cursor: pointer;
+}
+
+
+.menu{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 50px;
+    margin-left: 85%;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.ticket{
+    background-color: whitesmoke;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 300px;
+    margin-left: 10% ;
+}
+
+.centerInput{
+    background-color: whitesmoke;
+    margin-left: 20%;
+    margin-top: 3%;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.number{
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border:2px solid black;
+    margin-left: 5%;
+    background-color: whitesmoke;
+
+}
+
+.id{
+    margin-left: 7%;
+    width: 90px;
+    margin-bottom: 2%;
+    background-color: whitesmoke;
+}
+
+.name{
+width: 120px;
+margin-top: -9%;
+margin-left: 60%;
+margin-bottom: 2%;
+background-color: whitesmoke;
+}
+
+.besch{
+    margin-left: 7%;
+   
+
+}
+
+.beschreibung{
+    background-color: whitesmoke;
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-left: 7%;
+   font-family: system-ui;
+}
+
+.saveBtn{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 20px;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    display: flex;
+    justify-content: right;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.saveBtn:hover{
+    cursor: pointer;
+    
+}
+
+.dropDown{
+    margin-left: 60%;
+    border-color: black;
+    background-color: whitesmoke;
+}
+
+.optionDown{
+    border-color: black;
+    background-color: whitesmoke;
+}
+
+
+

@@ -1,0 +1,96 @@
+body{
+    background-image: url(main.jpg);
+    background-size: cover;
+    cursor: default;
+  
+}
+
+.border{
+background-color: whitesmoke;
+    max-width: 900px;
+    height: 300px;
+    margin-left: 20%;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.btn{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 20px;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    display: flex;
+    justify-content: right;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.center{
+display: grid;
+justify-items: center;    
+}
+
+details {
+    border:  solid whitesmoke;
+    background-color: whitesmoke;
+    color: transparent;
+    width: 45px;
+   padding-bottom: 5%;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    padding: .5rem 1rem;
+    
+}
+
+
+
+summary {
+    font-weight: bold;
+    width: 30px;
+    height: 35px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: transparent ;
+    cursor: pointer;
+    list-style-image: url(menu.png);
+}
+
+summary{
+ cursor: pointer; 
+}
+
+
+
+details summary > * {
+    display: inline;
+  }
+
+  details[open] {
+    color: black;
+    width: 200px;
+    height: 150px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    cursor: auto ;
+    list-style-image: url(menu.png);
+}
+  
+details[open] summary {
+    cursor: auto;
+}
+
+
+li{
+    list-style: none;
+}
