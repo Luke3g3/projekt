@@ -1,6 +1,6 @@
 
 var users = ["admin", "Menne", "Niklas"];
-var passwords = ["admin", "Lm2006", "Niklas123"];
+var passwords = ["admin", "Menne123", "Niklas123"];
 var dashboard = ["dashboard-admin.html", "dashboard-menne.html", "dashboard-niklas.html"];
 
 
