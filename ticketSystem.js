@@ -21,5 +21,5 @@
     function save(){
         var name = document.getElementById('name').value;
 
-        document.getElementById('ticketName').write(`<option class="optionDown">${name}</option>`)
+        document.getElementById('ticketName').innerHTML = '<option class="optionDown">${name}</option>'
     }
